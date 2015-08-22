@@ -29,7 +29,7 @@ src_compile() {
 }
 
 src_install() {
-	ebegin "Installing syncthing"
+	ebegin "Installing i7tt"
 	dobin ${_DEST}/i7tt/i7tt
 	eend ${?}
 }
