@@ -7,7 +7,7 @@ HOMEPAGE="https://github.com/andmarios/i7tt"
 SRC_URI=""
 
 EGIT_REPO_URI="https://github.com/andmarios/i7tt"
-EGIT_COMMIT="v1.0rc"
+EGIT_COMMIT="v${PV}"
 
 LICENSE="GPL-3"
 SLOT="0"
