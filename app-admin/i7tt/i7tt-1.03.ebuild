@@ -21,15 +21,15 @@ src_compile() {
 	ebegin "Building i7tt ${EGIT_COMMIT}"
 	mkdir -p ${_DEST}
 
-	ln -s ${WORKDIR}/i7tt-${PV} ${_DEST}/i7tt
+	ln -s ${WORKDIR}/${PN}-${PV} ${_DEST}/${PN}
 	export GOPATH=${WORKDIR}
-	cd ${_DEST}/i7tt
-	go get -v ./... && go build -v i7tt.go
+	cd ${_DEST}/${PN}
+	go get -v ./... && go build -v
 	eend ${?}
 }
 
 src_install() {
-	ebegin "Installing i7tt"
-	dobin ${_DEST}/i7tt/i7tt
+	ebegin "Installing ${PN}"
+	dobin ${_DEST}/${PN}/${PN}
 	eend ${?}
 }
