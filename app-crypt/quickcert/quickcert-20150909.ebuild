@@ -7,7 +7,7 @@ HOMEPAGE="https://github.com/andmarios/quickcert"
 SRC_URI=""
 
 EGIT_REPO_URI="https://github.com/andmarios/quickcert"
-EGIT_COMMIT="929736d6f9d796e4b11a30ae4b7fc0fb17877d43"
+EGIT_COMMIT="b8cf9748c5667b6f991730321b25bab05e279fbf"
 
 LICENSE="BSD"
 SLOT="0"
